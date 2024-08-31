@@ -53,3 +53,55 @@ nav .nav-container {
 .span-style {
   color: #fd6e0a;
 }
+
+/* banner section style */
+.banner-section-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  background: rgb(255, 248, 243);
+  margin-bottom: 100px;
+
+}
+
+.banner-left-section {
+  padding-left: 140px;
+  margin-top: 100px;
+  width: 40%;
+}
+
+.banner-greeting {
+  font-size: 32px;
+  font-weight: 600;
+  color: #474747;
+  margin-bottom: 15px;
+}
+
+.banner-left-section .banner-title {
+  color: #181818;
+  font-size: 4rem;
+  margin-bottom: 15px;
+}
+
+.banner-left-section .banenr-description {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #757575;
+  margin-bottom: 15px;
+}
+
+.banner-right-section #hardy {
+  width: 70%;
+  margin-left: 200px;
+  position: relative;
+  top: 5px;
+}
+
+.banner-right-section{
+  background-image: url('images/header_bg.png');
+  background-size: 95%;
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  
+}
