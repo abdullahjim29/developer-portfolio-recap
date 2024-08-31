@@ -128,18 +128,66 @@ nav .nav-container {
   columns: #757575;
 }
 
-.contact-container{
+.contact-container {
   display: flex;
   justify-content: space-around;
   margin-top: 20px;
 }
 
-.about-title{
+.about-title {
   text-align: center;
   color: #757575;
   font-weight: 400;
 }
 
-.about-info{
+.about-info {
   font-size: 16px;
+}
+
+/* what i do section styles */
+
+.what-i-do-section {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.what-i-do-title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.what-i-do-description {
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #757575;
+  margin-bottom: 30px;
+}
+
+.skills-container {
+  display: flex;
+  width: 75%;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  gap: 20px;
+}
+
+.skill {
+  border-radius: 5px;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+  background: rgb(255, 255, 255);
+  padding: 20px;
+}
+.image-title{
+  margin-bottom: 15px;
+}
+
+.skill-title{
+  margin-bottom: 15px;
+}
+
+.skill-description{
+  color: #757575;
 }
