@@ -204,7 +204,7 @@ nav .nav-container {
   font-weight: 700;
   font-size: 24px;
 }
-.resume-title{
+.resume-title {
   margin-bottom: 20px;
 }
 
@@ -242,12 +242,60 @@ nav .nav-container {
   letter-spacing: 0%;
   color: #757575;
 }
-hr{
-  color: #D1D1D1;
+hr {
+  color: #d1d1d1;
   margin-top: 15px;
 }
 
-.resume-download-btn{
- text-align: center;
- margin-top: 30px;
+.resume-download-btn {
+  text-align: center;
+  margin-top: 30px;
+}
+
+/* footer section styles */
+footer {
+  background: rgb(255, 248, 243);
+}
+.footer-section-container {
+  display: flex;
+  width: 60%;
+  margin: 0 auto;
+  padding: 100px;
+  gap: 50px;
+}
+
+input,
+textarea {
+  display: block;
+}
+
+.footer-tile {
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0%;
+}
+
+.footer-title,
+.footer-des {
+  margin-bottom: 15px;
+}
+
+.footer-des {
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0%;
+  color: #474747;
+  font-size: 14px;
+}
+
+footer img{
+  margin-right: 15px;
+}
+
+input,textarea{
+  padding: 20px;
+  width: 100%;
+  margin-bottom: 10px;
+  border: 0;
+  border-radius: 5px;
 }
