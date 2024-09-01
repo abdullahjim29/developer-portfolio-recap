@@ -114,7 +114,7 @@ nav .nav-container {
   margin-bottom: 100px;
 }
 
-.about-main-title {
+.main-title {
   text-align: center;
   font-size: 2rem;
   margin-bottom: 20px;
@@ -151,7 +151,7 @@ nav .nav-container {
   margin: 0 auto;
 }
 
-.what-i-do-title {
+.main-title {
   text-align: center;
   font-size: 2rem;
   margin-bottom: 20px;
@@ -180,14 +180,70 @@ nav .nav-container {
   background: rgb(255, 255, 255);
   padding: 20px;
 }
-.image-title{
+.image-title {
   margin-bottom: 15px;
 }
 
-.skill-title{
+.skill-title {
   margin-bottom: 15px;
 }
 
-.skill-description{
+.skill-description {
   color: #757575;
+}
+
+/* resume section styles */
+.resume-section-container {
+  width: 60%;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+
+.resume-title {
+  color: rgb(71, 71, 71);
+  font-weight: 700;
+  font-size: 24px;
+}
+.left-right-title-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.left-right-container {
+  display: flex;
+  gap: 50px;
+  margin-top: 25px;
+}
+
+#mb {
+  margin: 30px 0;
+}
+
+#mb2 {
+  margin: 30px 0;
+}
+
+.master {
+  font-weight: 700;
+  line-height: 34px;
+  letter-spacing: 0%;
+  color: #474747;
+}
+
+.company {
+  font-weight: 600;
+  line-height: 27px;
+  letter-spacing: 0%;
+  color: #474747;
+}
+
+.company-des {
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0%;
+  color: #757575;
+}
+hr{
+  color: #D1D1D1;
+  margin-top: 15px;
 }
