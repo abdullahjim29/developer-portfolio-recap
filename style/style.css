@@ -204,9 +204,8 @@ nav .nav-container {
   font-weight: 700;
   font-size: 24px;
 }
-.left-right-title-container {
-  display: flex;
-  justify-content: space-around;
+.resume-title{
+  margin-bottom: 20px;
 }
 
 .left-right-container {
@@ -246,4 +245,9 @@ nav .nav-container {
 hr{
   color: #D1D1D1;
   margin-top: 15px;
+}
+
+.resume-download-btn{
+ text-align: center;
+ margin-top: 30px;
 }
