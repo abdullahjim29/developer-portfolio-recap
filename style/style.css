@@ -19,9 +19,6 @@
   font-weight: 700;
 }
 
-.btn2{
-  text-align: center;
-}
 
 /* nav related style */
 
@@ -259,6 +256,7 @@ hr {
 /* footer section styles */
 footer {
   background: rgb(255, 248, 243);
+  width: 100%;
 }
 .footer-section-container {
   display: flex;
@@ -266,6 +264,16 @@ footer {
   margin: 0 auto;
   padding: 100px;
   gap: 50px;
+}
+
+.connect-section{
+  width: 70%;
+  margin: 0 auto;
+}
+
+.message-section{
+  width: 70%;
+  margin: 0 auto;
 }
 
 input,
@@ -316,9 +324,13 @@ input,textarea{
   }
   .nav-title{
     margin-bottom: 16px;
+    display: none;
   }
   .btn-primary{
     padding: 12px 18px;
+  }
+  .btn2{
+    text-align: center;
   }
 
   /* banner section */
@@ -375,7 +387,14 @@ input,textarea{
   }
 
   /* footer section */
+  footer{
+    width: 100%;
+  }
   .footer-section-container{
     flex-direction: column-reverse;
+    padding: 0;
+  }
+  .message-section{
+    margin-top: 50px;
   }
 }
