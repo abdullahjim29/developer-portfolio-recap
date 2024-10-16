@@ -346,9 +346,24 @@ input,textarea{
     margin-top: 70px;
   }
   /* aboute me section */
+  .about-section-container{
+    width: 50%;
+  }
   .contact-container {
     flex-direction: column;
     text-align: center;
     gap: 18px;
   }
+
+  /* what i do section */
+  .skills-container {
+    flex-direction: column;
+  }
+
+  .skill{
+    width: 50%;
+    padding: 30px 20px;
+    margin: 0 auto;
+  }
+
 }
