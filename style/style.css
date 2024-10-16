@@ -366,4 +366,12 @@ input,textarea{
     margin: 0 auto;
   }
 
+  /* resume section */
+  .main-title{
+    font-size: 26px;
+  }
+  .left-right-container{
+    flex-direction: column;
+  }
+
 }
